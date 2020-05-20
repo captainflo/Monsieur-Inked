@@ -42,22 +42,22 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings}>
         <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} />
+          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
         </div>
         <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} />
+          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
         </div>
         <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} />
+          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
         </div>
         <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} />
+          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
         </div>
         <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} />
+          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
         </div>
         <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} />
+          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
         </div>
       </Slider>
     );

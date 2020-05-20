@@ -20,7 +20,10 @@ class Welcome extends React.Component {
           <div classNsme="row container">
             <div className="wrapper-banner center">
               <div className="logo-me">
-                <img src={process.env.PUBLIC_URL + '/images/logo.png'} />
+                <img
+                  src={process.env.PUBLIC_URL + '/images/logo.png'}
+                  alt="logo"
+                />
               </div>
               <ScrollAnimation animateIn="fadeInDown" animateOnce={true}>
                 <h2>Monsieur Inked</h2>
@@ -37,7 +40,10 @@ class Welcome extends React.Component {
             <div className="col m4">
               <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
                 <div classNsme="img-me">
-                  <img src={process.env.PUBLIC_URL + '/images/me.jpg'} />
+                  <img
+                    src={process.env.PUBLIC_URL + '/images/me.jpg'}
+                    alt="pedro"
+                  />
                 </div>
               </ScrollAnimation>
             </div>
