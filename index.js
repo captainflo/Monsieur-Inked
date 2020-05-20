@@ -26,10 +26,10 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Connect Mongo Atlas
-mongoose.connect(keys.mongoURI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect(keys.mongoURI, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
