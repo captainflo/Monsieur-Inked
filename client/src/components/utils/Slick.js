@@ -29,14 +29,11 @@ class SimpleSlider extends React.Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            centerPadding: '0px',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerPadding: '40px',
           },
         },
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ],
     };
     return (

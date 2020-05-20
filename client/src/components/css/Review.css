@@ -2,11 +2,18 @@
   padding-top: 40px;
   color: #fff;
 }
+.portfolio hr {
+  display: block;
+  width: 250px;
+  border: 1px solid #fff;
+  margin-bottom: 60px;
+}
 
 .Review hr {
   display: block;
   width: 250px;
   border: 1px solid #fff;
+  margin-bottom: -20px;
 }
 
 .Review p {
@@ -15,10 +22,20 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.fa-star {
-  color: #d4af37;
+.Review .carousel {
+  height: 300px;
+  margin-bottom: 60px;
 }
 
-.Review .carousel {
-  height: 200px;
+.text-review {
+  display: block;
+  max-height: 130px;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.fa-star {
+  color: #d4af37;
 }

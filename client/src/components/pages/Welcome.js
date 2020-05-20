@@ -17,7 +17,7 @@ class Welcome extends React.Component {
     return (
       <div>
         <div className="section black">
-          <div classNsme="row container">
+          <div className="row container">
             <div className="wrapper-banner center">
               <div className="logo-me">
                 <img
@@ -29,17 +29,19 @@ class Welcome extends React.Component {
                 <h2>Monsieur Inked</h2>
                 <h5>A distinguished Fashion Consultant & Personal Stylist</h5>
                 <h5>
-                  <a href="mailto:pedro@gmail.com">Contact him</a>
+                  <a style={{ color: '#d4af37' }} href="mailto:pedro@gmail.com">
+                    Contact him
+                  </a>
                 </h5>
               </ScrollAnimation>
             </div>
           </div>
         </div>
-        <div class="section white">
-          <div class="row container">
+        <div className="section white">
+          <div className="row container">
             <div className="col m4">
               <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
-                <div classNsme="img-me">
+                <div className="img-me">
                   <img
                     src={process.env.PUBLIC_URL + '/images/me.jpg'}
                     alt="pedro"
@@ -75,11 +77,11 @@ class Welcome extends React.Component {
             </div>
           </div>
         </div>
-        <div className="section black">
+        <div className="section black portfolio">
           <h4 className="center">My Portfolio</h4>
-          <br></br>
+          <hr></hr>
           <div className="container">
-            <div classNsme="row">
+            <div className="row">
               <Slick />
               <Review />
             </div>

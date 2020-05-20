@@ -12,9 +12,17 @@
   margin-right: auto;
 }
 
-img {
-  width: 180px !important;
+.logo-me img {
+  width: 180px;
+}
+
+.img-me img {
+  width: 180px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.slick-slide img {
+  width: 180px;
 }
 
 .footer-copyright {

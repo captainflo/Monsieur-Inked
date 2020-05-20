@@ -6,7 +6,7 @@ class Review extends React.Component {
   componentDidMount() {
     // SideBar
     var elems = document.querySelectorAll('.carousel');
-    M.Carousel.init(elems, { padding: 40 });
+    M.Carousel.init(elems, { padding: 0 });
   }
   render() {
     return (
@@ -18,13 +18,18 @@ class Review extends React.Component {
           </div>
           <div className="carousel">
             <div className="carousel-item">
-              <p>Bob Smith</p>
-              <p>
-                <i className="fas fa-quote-left"></i> Great Web site! The
-                chaiman of this compagny is visionary{' '}
+              <p>Sheila Ruiz</p>
+              <p className="text-review">
+                <i className="fas fa-quote-left"></i>Monsieur Inked is such an
+                inspiration! When it comes to styling he is very knowledgeable
+                on what works best for you and the looks you are trying to
+                achieve. He is professional and makes you feel comfortable
+                throughout the whole process! Thank you for the beautiful
+                confidence you’ve helped me radiate! A new life long friend and
+                go to stylist!
                 <i className="fas fa-quote-right"></i>
               </p>
-              <p>Miami</p>
+              <p>Atlanta</p>
               <p>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -35,7 +40,7 @@ class Review extends React.Component {
             </div>
             <div className="carousel-item">
               <p>Steve Jobs</p>
-              <p>
+              <p className="text-review">
                 <i className="fas fa-quote-left"></i> Great Web site! The
                 chaiman of this compagny is visionary{' '}
                 <i className="fas fa-quote-right"></i>
@@ -51,7 +56,7 @@ class Review extends React.Component {
             </div>{' '}
             <div className="carousel-item">
               <p>Steve McQueen</p>
-              <p>
+              <p className="text-review">
                 <i className="fas fa-quote-left"></i> Great Web site! The
                 chaiman of this compagny is visionary{' '}
                 <i className="fas fa-quote-right"></i>
