@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-class SimpleSlider extends React.Component {
+export default class Responsive extends Component {
   render() {
     var settings = {
-      centerMode: true,
-      centerPadding: '40px',
-      slidesToShow: 3,
+      dots: true,
+      infinite: false,
+      className: 'center',
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
       responsive: [
         {
           breakpoint: 1024,
@@ -24,6 +28,7 @@ class SimpleSlider extends React.Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
+            initialSlide: 2,
           },
         },
         {
@@ -31,34 +36,39 @@ class SimpleSlider extends React.Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            centerPadding: '40px',
           },
         },
       ],
     };
     return (
-      <Slider {...settings}>
-        <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
-        </div>
-        <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
-        </div>
-        <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
-        </div>
-        <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
-        </div>
-        <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
-        </div>
-        <div>
-          <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
-        </div>
-      </Slider>
+      <div>
+        <Slider {...settings}>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+          </div>
+        </Slider>
+      </div>
     );
   }
 }
-
-export default SimpleSlider;

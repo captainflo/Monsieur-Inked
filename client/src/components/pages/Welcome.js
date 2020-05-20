@@ -39,7 +39,7 @@ class Welcome extends React.Component {
         </div>
         <div className="section white">
           <div className="row container">
-            <div className="col m4">
+            <div className="col m4 s12">
               <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
                 <div className="img-me">
                   <img
@@ -49,7 +49,7 @@ class Welcome extends React.Component {
                 </div>
               </ScrollAnimation>
             </div>
-            <div className="col m8">
+            <div className="col m8 s12">
               <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
                 <h4 className="black-text header">Who is Monsieur Inked?</h4>
                 <p className="black-text text-darken-3 lighten-3">

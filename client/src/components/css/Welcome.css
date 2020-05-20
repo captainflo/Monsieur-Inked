@@ -23,6 +23,8 @@
 
 .slick-slide img {
   width: 180px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-copyright {
@@ -32,4 +34,23 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .wrapper-banner h2 {
+    font-size: 40px;
+  }
+  .wrapper-banner h5 {
+    font-size: 1.5rem;
+  }
+
+  .img-me img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button.slick-arrow.slick-next {
+    margin-right: 10px;
+  }
+
+  button.slick-arrow.slick-prev {
+    margin-left: 10px;
+  }
 }
