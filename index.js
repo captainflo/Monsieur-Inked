@@ -1,17 +1,8 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
 const morgan = require('morgan');
-// const mongoose = require('mongoose');
 
 app.use(morgan('combined')); /*login server in your terminal */
-app.use(bodyParser.json({ type: '*/*' })); /* used to parse incoming requests */
-
-// Connect Mongo Atlas
-// mongoose.connect(keys.mongoURI, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
 
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
