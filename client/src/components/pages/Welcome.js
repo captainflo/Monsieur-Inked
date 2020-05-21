@@ -43,7 +43,7 @@ class Welcome extends React.Component {
               <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
                 <div className="img-me">
                   <img
-                    src={process.env.PUBLIC_URL + '/images/me.jpg'}
+                    src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
                     alt="pedro"
                   />
                 </div>

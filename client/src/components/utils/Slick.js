@@ -44,28 +44,52 @@ export default class Responsive extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              alt="monsieur-inked"
+            />
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              alt="monsieur-inked"
+            />
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              alt="monsieur-inked"
+            />
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              alt="monsieur-inked"
+            />
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              alt="monsieur-inked"
+            />
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              alt="monsieur-inked"
+            />
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              alt="monsieur-inked"
+            />
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/me.jpg'} alt="img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              alt="monsieur-inked"
+            />
           </div>
         </Slider>
       </div>
