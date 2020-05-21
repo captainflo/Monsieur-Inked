@@ -8,12 +8,27 @@ import Typing from 'react-typing-animation';
 import Services from '../utils/Services';
 class Welcome extends React.Component {
   componentDidMount() {
-    new Audio(
+    this.audio = new Audio(
       'https://res.cloudinary.com/monsieur-inked/video/upload/v1590087962/ON_DECK__The_Geek_x_VRV_eshsfd.mp3'
-    ).play();
+    );
+    this.audio.load();
+    this.playAudio();
+  }
 
+  playAudio() {
     const elemSlide = document.querySelectorAll('.slider');
     M.Slider.init(elemSlide, {});
+    const audioPromise = this.audio.play();
+    if (audioPromise !== undefined) {
+      audioPromise
+        .then((_) => {
+          // autoplay started
+        })
+        .catch((err) => {
+          // catch dom exception
+          console.info(err);
+        });
+    }
   }
 
   render() {
