@@ -2,6 +2,19 @@
   padding: 40px;
 }
 
+.wrapper-banner h1 {
+  font-family: myFirstFont;
+  font-size: 55px;
+  margin-bottom: -2px;
+}
+
+.monsieur {
+  font-family: myFirstFont;
+  font-size: 55px;
+  margin-bottom: -2px;
+  height: 100px;
+}
+
 .logo-me {
   background-color: #fff !important;
   width: 190px;
@@ -21,6 +34,13 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.btn-contact {
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+}
+
 .slick-slide img {
   width: 180px;
   margin-left: auto;
@@ -34,8 +54,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .wrapper-banner h2 {
+  .wrapper-banner h1 {
     font-size: 40px;
+  }
+
+  .monsieur {
+    font-size: 32px;
+    margin-bottom: -45px;
   }
   .wrapper-banner h5 {
     font-size: 1.5rem;

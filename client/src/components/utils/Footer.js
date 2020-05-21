@@ -8,7 +8,8 @@ class Footer extends React.Component {
         <div className="container">
           © 2020 Monsieur Inked
           <a
-            className="black-text text-lighten-4 right"
+            style={{ color: '#d4af37' }}
+            className="right"
             href="https://www.instagram.com/floweb_us/"
             rel="noopener noreferrer"
             target="_blank"

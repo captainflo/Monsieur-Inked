@@ -1,3 +1,9 @@
+/* Font */
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonts/AndreaBellarosa.ttf) format('truetype');
+}
+
 body {
   font-family: 'minion-pro', serif;
   background: #000000; /* fallback for old browsers */

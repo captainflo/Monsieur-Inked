@@ -4,11 +4,14 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Review from '../utils/Review';
 import Slick from '../utils/Slick';
-
+import Typing from 'react-typing-animation';
+import Services from '../utils/Services';
 class Welcome extends React.Component {
   componentDidMount() {
-    const elems = document.querySelectorAll('.parallax');
-    M.Parallax.init(elems, { height: '200px' });
+    new Audio(
+      'https://res.cloudinary.com/monsieur-inked/video/upload/v1590087962/ON_DECK__The_Geek_x_VRV_eshsfd.mp3'
+    ).play();
+
     const elemSlide = document.querySelectorAll('.slider');
     M.Slider.init(elemSlide, {});
   }
@@ -19,17 +22,20 @@ class Welcome extends React.Component {
         <div className="section black">
           <div className="row container">
             <div className="wrapper-banner center">
-              <div className="logo-me">
-                <img
-                  src={process.env.PUBLIC_URL + '/images/logo.png'}
-                  alt="logo"
-                />
-              </div>
               <ScrollAnimation animateIn="fadeInDown" animateOnce={true}>
-                <h2>Monsieur Inked</h2>
-                <h5>A distinguished Fashion Consultant & Personal Stylist</h5>
-                <h5>
-                  <a style={{ color: '#d4af37' }} href="mailto:pedro@gmail.com">
+                <div className="logo-me">
+                  <img
+                    src={process.env.PUBLIC_URL + '/images/logo.png'}
+                    alt="logo"
+                  />
+                </div>
+                <Typing ms={1000} className="monsieur" speed={100}>
+                  <Typing.Delay ms={1200} />
+                  <span>Monsieur Inked</span>
+                </Typing>
+                <h5>A Distinguished Fashion Stylist & Personal Shopper</h5>
+                <h5 style={{ marginTop: 30 }}>
+                  <a className="btn-contact" href="mailto:pedro@gmail.com">
                     Contact him
                   </a>
                 </h5>
@@ -37,7 +43,7 @@ class Welcome extends React.Component {
             </div>
           </div>
         </div>
-        <div className="section white">
+        <div style={{ padding: 60 }} className="section white">
           <div className="row container">
             <div className="col m4 s12">
               <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
@@ -62,17 +68,6 @@ class Welcome extends React.Component {
                   or image in this case, is moved at a different speed than the
                   foreground content while scrolling.
                 </p>
-                <div className="row  black-text text-darken-3 lighten-3">
-                  <div className="col m4">
-                    <h6>Personal Shopper</h6>
-                  </div>
-                  <div className="col m4">
-                    <h6>Image Consulting</h6>
-                  </div>
-                  <div className="col m4">
-                    <h6>Wardrobe Detox</h6>
-                  </div>
-                </div>
               </ScrollAnimation>
             </div>
           </div>
@@ -80,9 +75,24 @@ class Welcome extends React.Component {
         <div className="section black portfolio">
           <h4 className="center">My Portfolio</h4>
           <hr></hr>
+          <div style={{ paddingBottom: 30 }} className="container">
+            <div className="row">
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+                <Slick />
+              </ScrollAnimation>
+            </div>
+          </div>
+        </div>
+        <div className="section white">
           <div className="container">
             <div className="row">
-              <Slick />
+              <Services />
+            </div>
+          </div>
+        </div>
+        <div className="section black portfolio">
+          <div className="container">
+            <div className="row">
               <Review />
             </div>
           </div>

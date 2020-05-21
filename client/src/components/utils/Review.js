@@ -39,13 +39,14 @@ class Review extends React.Component {
               </p>
             </div>
             <div className="carousel-item">
-              <p>Steve Jobs</p>
+              <p>Steve Henry </p>
               <p className="text-review">
-                <i className="fas fa-quote-left"></i> Great Web site! The
-                chaiman of this compagny is visionary{' '}
+                <i className="fas fa-quote-left"></i> Monsieur Inked changed the
+                way I dress and feel in a weekend. One of the best choices I’ve
+                made for myself - ever!
                 <i className="fas fa-quote-right"></i>
               </p>
-              <p>New York</p>
+              <p>Houston</p>
               <p>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -58,7 +59,7 @@ class Review extends React.Component {
               <p>Steve McQueen</p>
               <p className="text-review">
                 <i className="fas fa-quote-left"></i> Great Web site! The
-                chaiman of this compagny is visionary{' '}
+                chairman of this compagny is visionary{' '}
                 <i className="fas fa-quote-right"></i>
               </p>
               <p>Atlanta</p>
