@@ -8,25 +8,8 @@ import Typing from 'react-typing-animation';
 import Services from '../utils/Services';
 class Welcome extends React.Component {
   componentDidMount() {
-    this.audio = new Audio(process.env.PUBLIC_URL + '/images/sound.mp3');
-    this.audio.load();
-    this.playAudio();
-
     const elemSlide = document.querySelectorAll('.slider');
     M.Slider.init(elemSlide, {});
-  }
-  playAudio() {
-    const audioPromise = this.audio.play();
-    if (audioPromise !== undefined) {
-      audioPromise
-        .then((_) => {
-          // autoplay started
-        })
-        .catch((err) => {
-          // catch dom exception
-          console.info(err);
-        });
-    }
   }
 
   render() {
