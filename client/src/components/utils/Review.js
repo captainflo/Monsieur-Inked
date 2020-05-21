@@ -56,10 +56,12 @@ class Review extends React.Component {
               </p>
             </div>{' '}
             <div className="carousel-item">
-              <p>Steve McQueen</p>
+              <p>Katya Prekrasnaya</p>
               <p className="text-review">
-                <i className="fas fa-quote-left"></i> Great Web site! The
-                chairman of this compagny is visionary{' '}
+                <i className="fas fa-quote-left"></i> Monsieur Inked has a great
+                talent for integrating who you are as a person with what you
+                want to say through your appearance. A master at work giving you
+                a 110% of confidence to take over the world.
                 <i className="fas fa-quote-right"></i>
               </p>
               <p>Atlanta</p>

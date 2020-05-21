@@ -61,8 +61,8 @@ class Welcome extends React.Component {
                   Who is Monsieur Inked?
                 </h4>
                 <p className="black-text text-darken-3 lighten-3">
-                  Born in Portugalm it was in this historic European city that
-                  he was first introduced to the world of fashion. By the very
+                  Born in Portugal was in this historic European city that he
+                  was first introduced to the world of fashion. By the very
                   young age of five his interest in fashion had been sparked by
                   the beautiful boutiques and vibrancy of old Lisbon. As a young
                   adult he relocated to the romantic city of Paris, France.

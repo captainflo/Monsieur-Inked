@@ -71,7 +71,6 @@
   .wrapper-banner h1 {
     font-size: 40px;
   }
-
   .who {
     padding: 20px;
   }
@@ -99,5 +98,8 @@
 
   button.slick-arrow.slick-prev {
     margin-left: 10px;
+  }
+  .footer-copyright {
+    font-size: 12px;
   }
 }
