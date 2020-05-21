@@ -45,49 +45,37 @@ export default class Responsive extends Component {
         <Slider {...settings}>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked01.jpg'}
               alt="monsieur-inked"
             />
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked04.jpg'}
               alt="monsieur-inked"
             />
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked02.jpg'}
               alt="monsieur-inked"
             />
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked03.jpg'}
               alt="monsieur-inked"
             />
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked05.jpg'}
               alt="monsieur-inked"
             />
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
-              alt="monsieur-inked"
-            />
-          </div>
-          <div>
-            <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
-              alt="monsieur-inked"
-            />
-          </div>
-          <div>
-            <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked.jpg'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked06.jpg'}
               alt="monsieur-inked"
             />
           </div>

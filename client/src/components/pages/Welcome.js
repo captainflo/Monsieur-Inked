@@ -43,7 +43,7 @@ class Welcome extends React.Component {
             </div>
           </div>
         </div>
-        <div style={{ padding: 60 }} className="section white">
+        <div className="section white who">
           <div className="row container">
             <div className="col m4 s12">
               <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
@@ -57,16 +57,33 @@ class Welcome extends React.Component {
             </div>
             <div className="col m8 s12">
               <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
-                <h4 className="black-text header">Who is Monsieur Inked?</h4>
+                <h4 className="black-text header who-title">
+                  Who is Monsieur Inked?
+                </h4>
                 <p className="black-text text-darken-3 lighten-3">
-                  Parallax is an effect where the background content or image in
-                  this case, is moved at a different speed than the foreground
-                  content while scrolling.Parallax is an effect where the
-                  background content or image in this case, is moved at a
-                  different speed than the foreground content while
-                  scrolling.Parallax is an effect where the background content
-                  or image in this case, is moved at a different speed than the
-                  foreground content while scrolling.
+                  Born in Portugalm it was in this historic European city that
+                  he was first introduced to the world of fashion. By the very
+                  young age of five his interest in fashion had been sparked by
+                  the beautiful boutiques and vibrancy of old Lisbon. As a young
+                  adult he relocated to the romantic city of Paris, France.
+                </p>
+                <p className="black-text text-darken-3 lighten-3">
+                  It was in the fashion capital of the world that he began his
+                  career in high fashion. Monsieur Inked was cultivated and
+                  refined by the elegance and worldliness of Paris.
+                </p>
+                <p className="black-text text-darken-3 lighten-3">
+                  When his years in Paris came to an end, Monsieur Inked brought
+                  his style and his dignified European sophistication to
+                  America, assisting clients in cities such as Atlanta, Houston
+                  and the cosmopolitan metropolis of Miami. Monsieur Inked has
+                  intrinsically combined his enjoyment for high fashion, his
+                  thorough knowledge of the fashion world, his valuable work
+                  experience and developed professional services that benefit
+                  individuals seeking fashion assistance.
+                </p>
+                <p className="signature black-text text-darken-3 lighten-3 right">
+                  Monsieur Inked
                 </p>
               </ScrollAnimation>
             </div>

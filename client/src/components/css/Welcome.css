@@ -1,6 +1,9 @@
 .wrapper-banner {
   padding: 40px;
 }
+.who {
+  padding: 60px;
+}
 
 .wrapper-banner h1 {
   font-family: myFirstFont;
@@ -30,7 +33,8 @@
 }
 
 .img-me img {
-  width: 180px;
+  width: 250px;
+
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -40,9 +44,14 @@
   color: #d4af37;
   border: 1px solid #d4af37;
 }
-
+.signature {
+  font-family: myFirstFont;
+  font-size: 18px;
+  font-weight: bold;
+}
 .slick-slide img {
   width: 180px;
+  height: 270px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -53,9 +62,22 @@
   padding: 20px;
 }
 
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media only screen and (max-width: 600px) {
   .wrapper-banner h1 {
     font-size: 40px;
+  }
+
+  .who {
+    padding: 20px;
+  }
+
+  .who-title {
+    font-size: 28px;
   }
 
   .monsieur {
