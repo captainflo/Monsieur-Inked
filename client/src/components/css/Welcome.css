@@ -78,7 +78,7 @@
     font-size: 40px;
   }
   .who {
-    padding: 20px;
+    padding: 20px !important;
   }
 
   .who-title {
@@ -97,6 +97,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
   }
   button.slick-arrow.slick-next {
     margin-right: 10px;
