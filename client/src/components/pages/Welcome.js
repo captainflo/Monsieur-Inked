@@ -57,26 +57,36 @@ class Welcome extends React.Component {
                   Who is Monsieur Inked?
                 </h4>
                 <p className="black-text text-darken-3 lighten-3">
-                  Born in Portugal was in this historic European city that he
-                  was first introduced to the world of fashion. By the very
-                  young age of five his interest in fashion had been sparked by
-                  the beautiful boutiques and vibrancy of old Lisbon. As a young
-                  adult he relocated to the romantic city of Paris, France.
+                  To have your dream unfold in front of your eyes is the
+                  greatest gift we can experience in this life. For Monsieur
+                  Inked, that dream is actualised every day when he connects
+                  with his personal clients who have entrusted him with helping
+                  them cultivate their own signature style. From everyday life
+                  to red carpet moments, he revels in the opportunity to witness
+                  his clients connecting to their soul, the resting place of
+                  their confidence, and express that beauty to the world.
                 </p>
                 <p className="black-text text-darken-3 lighten-3">
-                  It was in the fashion capital of the world that he began his
-                  career in high fashion. Monsieur Inked was cultivated and
-                  refined by the elegance and worldliness of Paris.
+                  As a young man growing up in Lisbon, Portugal, he was
+                  surrounded by beauty. His mother’s elegance and impeccable
+                  taste gave his young heart the craving to see beauty in
+                  everything around him. From there, He began forming his own
+                  pallet for fashion and interior design. This desire led him to
+                  further his experience in the homeland of beauty itself,
+                  Paris, France.
                 </p>
                 <p className="black-text text-darken-3 lighten-3">
-                  When his years in Paris came to an end, Monsieur Inked brought
-                  his style and his dignified European sophistication to
-                  America, assisting clients in cities such as Atlanta, Houston
-                  and the cosmopolitan metropolis of Miami. Monsieur Inked has
-                  intrinsically combined his enjoyment for high fashion, his
-                  thorough knowledge of the fashion world, his valuable work
-                  experience and developed professional services that benefit
-                  individuals seeking fashion assistance.
+                  His time in Paris refined his own signature style and opened
+                  up the doors for him to begin helping others form their own as
+                  he embraced his role as a personal shopper and stylist at
+                  Galeries Lafayette, and later at the iconic Tiffany & Co.
+                </p>
+                <p className="black-text text-darken-3 lighten-3">
+                  Since 2010, he has called America his home. From Atlanta, to
+                  New Orleans and finally Miami Beach. With Louis Vuitton as his
+                  home, he has the incredible honour of revealing his potential
+                  everyday by guiding his clients to explore, develop, innovate,
+                  and create a style that is all their own.
                 </p>
                 <p className="signature black-text text-darken-3 lighten-3 right">
                   Monsieur Inked
