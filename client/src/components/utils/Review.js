@@ -73,6 +73,27 @@ class Review extends React.Component {
                 <i className="fas fa-star"></i>
               </p>
             </div>
+            <div className="carousel-item">
+              <p>Russell Purser </p>
+              <p className="text-review">
+                <i className="fas fa-quote-left"></i> I reached out to Monsieur
+                Inked to assist me on two different levels. First as my fashion
+                consultant and second to organize my closet. He listened to all
+                my needs and made it happen. I couldn’t be happier. When I open
+                my closet doors it’s so organized and it now makes sense. Thank
+                you for all you do and did to make me look my best and be at
+                ease.
+                <i className="fas fa-quote-right"></i>
+              </p>
+              <p>Atlanta</p>
+              <p>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </p>
+            </div>
           </div>
         </div>
       </div>

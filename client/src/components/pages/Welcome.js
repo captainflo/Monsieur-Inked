@@ -96,7 +96,7 @@ class Welcome extends React.Component {
           </div>
         </div>
         <div className="section black portfolio">
-          <h4 className="center">My Portfolio</h4>
+          <h4 className="center">Gallery</h4>
           <hr></hr>
           <div style={{ paddingBottom: 30 }} className="container">
             <div className="row">
