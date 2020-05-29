@@ -31,7 +31,10 @@ class Welcome extends React.Component {
                 </Typing>
                 <h5>A Distinguished Fashion Stylist & Personal Shopper</h5>
                 <h5 style={{ marginTop: 30 }}>
-                  <a className="btn-contact" href="mailto:pedro@gmail.com">
+                  <a
+                    className="btn-contact"
+                    href="mailto:monsieurinkedstyling@gmail.com"
+                  >
                     Contact him
                   </a>
                 </h5>
