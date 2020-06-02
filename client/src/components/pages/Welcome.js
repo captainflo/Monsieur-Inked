@@ -6,6 +6,7 @@ import Review from '../utils/Review';
 import Slick from '../utils/Slick';
 import Typing from 'react-typing-animation';
 import Services from '../utils/Services';
+
 class Welcome extends React.Component {
   componentDidMount() {
     const elemSlide = document.querySelectorAll('.slider');
@@ -87,7 +88,7 @@ class Welcome extends React.Component {
                 <p className="black-text text-darken-3 lighten-3">
                   Since 2010, he has called America his home. From Atlanta, to
                   New Orleans and finally Miami Beach. With Louis Vuitton as his
-                  home, he has the incredible honour of revealing his potential
+                  home, he has the incredible honor of revealing his potential
                   everyday by guiding his clients to explore, develop, innovate,
                   and create a style that is all their own.
                 </p>

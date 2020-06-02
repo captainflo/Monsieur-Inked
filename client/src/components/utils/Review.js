@@ -94,6 +94,26 @@ class Review extends React.Component {
                 <i className="fas fa-star"></i>
               </p>
             </div>
+            <div className="carousel-item">
+              <p>Anna Kersh</p>
+              <p className="text-review">
+                <i className="fas fa-quote-left"></i> Monsieur Inked has
+                exquisite personal style and an eye for perfection. He has
+                advised me on several looks for major events for which I
+                received many compliments. I’ve used his services for closet
+                organization and was incredibly pleased with the result. He’s
+                also a wonderful person to work with, highly recommend!
+                <i className="fas fa-quote-right"></i>
+              </p>
+              <p>Philadelphia</p>
+              <p>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </p>
+            </div>
           </div>
         </div>
       </div>
