@@ -6,18 +6,21 @@ import Review from '../utils/Review';
 import Slick from '../utils/Slick';
 import Typing from 'react-typing-animation';
 import Services from '../utils/Services';
+import ReactAudioPlayer from 'react-audio-player';
 
 class Welcome extends React.Component {
   componentDidMount() {
     const elemSlide = document.querySelectorAll('.slider');
     M.Slider.init(elemSlide, {});
   }
-  render() {
-    // const Sound = () => <audio autoPlay src={`/images/sound.mp3`} />;
 
+  render() {
     return (
       <div>
-        <audio autoPlay src={`/images/sound.mp3`} />
+        <ReactAudioPlayer
+          src={process.env.PUBLIC_URL + '/images/sound.mp3'}
+          autoPlay
+        />
         <div className="section black">
           <div className="row container">
             <div className="wrapper-banner center">
