@@ -8,11 +8,6 @@ import Typing from 'react-typing-animation';
 import Services from '../utils/Services';
 
 class Welcome extends React.Component {
-  state = {
-    sound:
-      'https://res.cloudinary.com/monsieur-inked/video/upload/v1590087962/ON_DECK__The_Geek_x_VRV_eshsfd.mp3',
-  };
-
   componentDidMount() {
     const elemSlide = document.querySelectorAll('.slider');
     M.Slider.init(elemSlide, {});
@@ -21,11 +16,6 @@ class Welcome extends React.Component {
   render() {
     return (
       <div>
-        <iframe
-          style={{ display: 'none' }}
-          src={this.state.sound}
-          allow="autoplay"
-        ></iframe>
         <div className="section black">
           <div className="row container">
             <div className="wrapper-banner center">

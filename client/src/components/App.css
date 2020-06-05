@@ -17,5 +17,20 @@ body {
   color: #000000 !important;
 }
 
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: 'row';
+  align-items: center;
+}
+
+audio:focus {
+  outline: none !important;
+}
+
 @media only screen and (max-width: 600px) {
+  .footer-wrapper {
+    flex-direction: column;
+    line-height: 3;
+  }
 }
