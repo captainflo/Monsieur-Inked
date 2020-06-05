@@ -12,10 +12,12 @@ class Welcome extends React.Component {
     const elemSlide = document.querySelectorAll('.slider');
     M.Slider.init(elemSlide, {});
   }
-
   render() {
+    // const Sound = () => <audio autoPlay src={`/images/sound.mp3`} />;
+
     return (
       <div>
+        <audio autoPlay src={`/images/sound.mp3`} />
         <div className="section black">
           <div className="row container">
             <div className="wrapper-banner center">
