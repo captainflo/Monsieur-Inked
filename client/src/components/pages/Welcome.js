@@ -74,7 +74,7 @@ class Welcome extends React.Component {
                   As a young man growing up in Lisbon, Portugal, he was
                   surrounded by beauty. His mother’s elegance and impeccable
                   taste gave his young heart the craving to see beauty in
-                  everything around him. From there, He began forming his own
+                  everything around him. From there, he began forming his own
                   pallet for fashion and interior design. This desire led him to
                   further his experience in the homeland of beauty itself,
                   Paris, France.
