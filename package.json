@@ -30,7 +30,6 @@
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.1",
-    "react-audio-player": "^0.13.0",
     "react-typing-animation": "^1.6.2"
   }
 }
