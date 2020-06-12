@@ -16,7 +16,7 @@ class Footer extends React.Component {
           </a>
           <a
             style={{ color: '#d4af37' }}
-            href="https://www.instagram.com/floweb_us/"
+            href="https://www.instagram.com/mrinked/"
             rel="noopener noreferrer"
             target="_blank"
           >

@@ -75,7 +75,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked06.JPG'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked06.jpeg'}
               alt="monsieur-inked"
             />
           </div>
