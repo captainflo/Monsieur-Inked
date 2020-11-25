@@ -45,7 +45,7 @@ export default class Responsive extends Component {
         <Slider {...settings}>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked01.JPG'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked01.jpeg'}
               alt="monsieur-inked"
             />
           </div>
@@ -69,7 +69,7 @@ export default class Responsive extends Component {
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL + '/images/monsieur-inked05.JPG'}
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked05.jpeg'}
               alt="monsieur-inked"
             />
           </div>

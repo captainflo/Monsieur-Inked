@@ -2,10 +2,6 @@ import React from 'react';
 import '../App.css';
 
 class Footer extends React.Component {
-  state = {
-    play: false,
-  };
-
   render() {
     return (
       <div className="footer-copyright">
@@ -22,8 +18,11 @@ class Footer extends React.Component {
           >
             <i className="fab fa-instagram"></i> Instagram
           </a>
-          <audio controls ref="audio" autoPlay>
-            <source src="https://res.cloudinary.com/monsieur-inked/video/upload/v1590087962/ON_DECK__The_Geek_x_VRV_eshsfd.mp3" />
+          <audio controls ref="audio">
+            <source
+              src={process.env.PUBLIC_URL + '/images/sound.mp3'}
+              autoPlay
+            />
           </audio>
         </div>
       </div>

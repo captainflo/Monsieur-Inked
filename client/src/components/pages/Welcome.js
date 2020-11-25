@@ -71,7 +71,7 @@ class Welcome extends React.Component {
                   their confidence, and express that beauty to the world.
                 </p>
                 <p className="black-text text-darken-3 lighten-3">
-                  As a young man growing up in Lisbon, Portugal, he was
+                  As a young man growing up near Lisbon, Portugal, he was
                   surrounded by beauty. His mother’s elegance and impeccable
                   taste gave his young heart the craving to see beauty in
                   everything around him. From there, he began forming his own
