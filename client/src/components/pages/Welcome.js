@@ -36,7 +36,7 @@ class Welcome extends React.Component {
                     className="btn-contact"
                     href="mailto:monsieurinkedstyling@gmail.com"
                   >
-                    Contact him
+                    BOOK AN APPOINTMENT
                   </a>
                 </h5>
               </ScrollAnimation>
@@ -100,7 +100,7 @@ class Welcome extends React.Component {
           </div>
         </div>
         <div className="section black portfolio">
-          <h4 className="center">Gallery</h4>
+          <h4 className="center">Portfolio</h4>
           <hr></hr>
           <div style={{ paddingBottom: 30 }} className="container">
             <div className="row">

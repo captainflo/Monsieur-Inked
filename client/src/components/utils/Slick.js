@@ -51,7 +51,19 @@ export default class Responsive extends Component {
           </div>
           <div>
             <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-inked07.jpeg'}
+              alt="monsieur-inked"
+            />
+          </div>
+          <div>
+            <img
               src={process.env.PUBLIC_URL + '/images/monsieur-inked04.JPG'}
+              alt="monsieur-inked"
+            />
+          </div>
+          <div>
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-ink09.jpeg'}
               alt="monsieur-inked"
             />
           </div>
@@ -61,10 +73,22 @@ export default class Responsive extends Component {
               alt="monsieur-inked"
             />
           </div>
+          <div>
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-ink08.jpeg'}
+              alt="monsieur-inked"
+            />
+          </div>
 
           <div>
             <img
               src={process.env.PUBLIC_URL + '/images/monsieur-inked05.jpg'}
+              alt="monsieur-inked"
+            />
+          </div>
+          <div>
+            <img
+              src={process.env.PUBLIC_URL + '/images/monsieur-ink10.jpeg'}
               alt="monsieur-inked"
             />
           </div>

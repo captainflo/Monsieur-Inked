@@ -13,6 +13,28 @@
   margin-bottom: -20px;
 }
 
+.Services h5 {
+  padding-top: 30px;
+}
+
+.Services img {
+  width: 180px;
+}
+
+.services-item {
+  line-height: 35px;
+}
+
+.hanger {
+  width: 28px !important;
+  margin-right: 5px;
+  padding-top: -2px !important;
+}
+
+.collection-item li img {
+  padding-top: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   .Services {
     line-height: 2;
